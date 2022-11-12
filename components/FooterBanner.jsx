@@ -21,21 +21,21 @@ const FooterBanner = ({
     <div className="footer-banner-container">
       <div className="banner-desc">
         <div className="left">
-          <p>{discount}</p>
+          {/* <p>{discount}</p>
           <h3>{largeText1}</h3>
           <h3>{largeText2}</h3>
-          <p>{saleTime}</p>
+          <p>{saleTime}</p> */}
+          <p>{smallText}</p>
         </div>
         <div className="right">
-          <p>{smallText}</p>
-          <h3>{midText}</h3>
+          {/* <h3>{midText}</h3> */}
           <p>{desc}</p>
-          <Link href={`/product/${product}`}>
+          {/* <Link href={`/product/${product}`}>
             <button type="button">{buttonText}</button>
-          </Link>
+          </Link> */}
         </div>
 
-        <img src={urlFor(image)} className="footer-banner-image" />
+        {/* <img src={urlFor(image)} className="footer-banner-image" /> */}
       </div>
     </div>
   );

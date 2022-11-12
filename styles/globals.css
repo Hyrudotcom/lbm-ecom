@@ -130,7 +130,7 @@ span.text-red {
 
 .hero-banner-container {
   padding: 100px 40px;
-  background-color: #dcdcdc;
+  background-color: #e2d3c5;
   border-radius: 15px;
   position: relative;
   height: 500px;
@@ -208,7 +208,7 @@ span.text-red {
 }
 .footer-banner-container {
   padding: 100px 40px;
-  background-color: #f02d34;
+  background-color: #e2d3c5;
   border-radius: 15px;
   position: relative;
   height: 400px;
@@ -241,11 +241,14 @@ span.text-red {
   margin: 18px;
 }
 .footer-banner-image {
-  position: absolute;
+  /* position: absolute; */
+  width: 250px;
+  height: 250px;
+  padding-right: 1rem;
   /* top: -35%;
-  left: 8%; */
+  left: 8%;
   top: -25%;
-  left: 25%;
+  left: 25%; */
 }
 .banner-desc .right {
   line-height: 1.4;
@@ -634,13 +637,15 @@ span.text-red {
     margin-left: 5px;
   }
   .banner-desc .left p {
-    margin: 18px;
+    font-size: 18px;
+    color: black;
   }
   .banner-desc .right h3 {
     font-size: 45px;
   }
   .banner-desc .right p {
     font-size: 18px;
+    color: black;
   }
   .banner-desc .right .company-desc {
     font-size: 14px;

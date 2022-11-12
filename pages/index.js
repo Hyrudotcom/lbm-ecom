@@ -5,10 +5,16 @@ import { Product, FooterBanner, HeroBanner } from "../components";
 
 const Home = ({ products, bannerData }) => (
   <div>
-    <HeroBanner heroBanner={bannerData.length && bannerData[0]} />
+    {/* <HeroBanner heroBanner={bannerData.length && bannerData[0]} /> */}
     <div className="products-heading">
-      <h2>Best Seller Products</h2>
-      <p>speaker There are many variations passages</p>
+      <h2>Workout Programs</h2>
+      <br></br>
+      <p>
+        The info you will get are products of years of intense work and endless
+        refinement. I will watch and examine the videos regularly sent by you, I
+        will give the essential tips and will be on your side with frequent
+        communication.
+      </p>
     </div>
 
     <div className="products-container">
